@@ -6,19 +6,11 @@ import './App.css';
 
 
 const Button = ({ handleClick, text }) => {
-<<<<<<< HEAD
     //button template
     console.log("Button text: ", text);
 
     return (
         <button onClick={handleClick}>
-=======
-  //button template
-    console.log("Button text: ", text);
-
-    return (
-        <button onClick = {handleClick}>
->>>>>>> 605d86920a9905c17b936efbd1e832369701afde
             {text}
         </button>
     )
@@ -71,20 +63,14 @@ const App = () => {
         <div>
 
             <div>
-                <Navbar/>
+                <Navbar />
             </div>
 
-<<<<<<< HEAD
             <div className="container">
                 <Header />
             </div>
-=======
-      <Button fhandleClick={goodClick} text='good' />
-      <Button fhandleClick={neutralClick} text='neutral'/>
-      <Button fhandleClick={badClick} text='bad'/>
->>>>>>> 605d86920a9905c17b936efbd1e832369701afde
 
-            <div className="container"> 
+            <div className="container">
                 <Hero />
             </div>
 
