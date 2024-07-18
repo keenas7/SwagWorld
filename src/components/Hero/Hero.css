@@ -1,0 +1,36 @@
+.doorImg {
+    width: 600px;
+}
+
+.doorFrame {
+    flex-basis: 31%;
+    position: relative;
+}
+
+.enterDoor {
+    width: 6em;
+    height: 12em;
+    top: -520px;
+    left: 370px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.test {
+    position: absolute;
+    display: flex;
+    background: white;
+    color: white;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    opacity:0;
+}
+
+.enterDoor:hover .test{
+    opacity: 1;
+}

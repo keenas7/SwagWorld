@@ -1,0 +1,50 @@
+
+
+
+
+.galleryDiv {
+    padding: 120px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #af2e75;
+    width: 100%;
+    border-bottom: 2px solid #b22f77;
+}
+
+.center {
+    display: flex;
+    padding: 10px 10px 10px 100px;
+}
+
+.flexBox {
+    display: flex;
+}
+
+.sideBar {
+    color: #af2e75;
+    text-align: left;
+    list-style-type: none;
+    padding: 10px 10px 10px 50px;
+    line-height: 4.5;
+    border-right: 2px solid #b22f77;
+    width: 200px;
+    display: block;
+}
+
+div.gallery {
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    justify-items: center;
+    gap: 10px;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+div.gallery img {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    border: 2px solid darkTurquoise;
+}

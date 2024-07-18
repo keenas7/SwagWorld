@@ -1,0 +1,47 @@
+.ugh {
+    padding: 120px 0px 50px 0px ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #b22f77;
+}
+
+.keenaSwag {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.imageFrame {
+    position: relative;
+
+}
+
+.insta {
+    width: 12em;
+    height: 6em;
+    top: -530px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: hotpink;
+    opacity: 0.5;
+    position: relative;
+
+}
+
+.email {
+    width: 7em;
+    height: 7em;
+    position: relative;
+    top: -250px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: goldenrod;
+    opacity: 0.5;
+}
